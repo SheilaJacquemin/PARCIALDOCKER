@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  app:
+    image: mi_app:latest
+    deploy:
+      replicas: 4
